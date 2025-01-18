@@ -1,0 +1,4 @@
+Input an infix expression and output its postfix notation:
+10+4-2-0-6+6-3-1-1-9+Time Taken: 0.004000000000 ms
+
+End of program.

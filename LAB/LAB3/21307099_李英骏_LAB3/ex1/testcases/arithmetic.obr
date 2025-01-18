@@ -1,0 +1,44 @@
+MODULE calculate;
+	(* 计算阶乘 *)
+	PROCEDURE Factorial;
+	VAR
+        res: INTEGER;
+        N: INTEGER;
+	BEGIN
+		Read(N);
+		res := 1;
+		IF N = 0 THEN res := 1 END;
+		WHILE N > 1 DO
+			res := N * res;
+			N := N - 1
+		END;
+		Write(res); WriteLn
+	END Factorial;
+
+	(* 计算数组元素之和 *)
+	PROCEDURE CalculateArraySum;
+	VAR
+		arr: ARRAY 5 OF INTEGER;
+		sum: INTEGER;
+		n: INTEGER;
+		k: INTEGER;
+	BEGIN
+		(* 初始化数组 *)
+		arr[0] := 1; arr[1] := 2; arr[2] := 3; arr[3] := 4; arr[4] := 5;
+		sum := 0;
+		n := 0;
+
+		WHILE n < 5 DO
+			n := 1 + n;
+			sum := sum + arr[n];
+		END;
+		Write(sum); WriteLn
+	END CalculateArraySum;
+
+	PROCEDURE call;
+	BEGIN
+		Factorial();
+		CalculateArraySum();
+	END call;
+
+END calculate.

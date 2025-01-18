@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}概述}{1}{section.1}%
+\contentsline {section}{\numberline {2}类设计}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Main}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}TaxRate}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}PersonalIncomeTaxCalculator}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}UserInterface}{2}{subsection.2.4}%

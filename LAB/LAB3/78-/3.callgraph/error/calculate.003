@@ -1,0 +1,39 @@
+(*IllegalOctalException*)
+Module calculate;
+	(*计算阶乘*)
+	PROCEDURE Factorial;
+	VAR n, res: INTEGER;
+	BEGIN
+		Read(n);
+		res := 019;
+		IF n = 0 THEN res := 0 END;
+		WHILE n > 1 DO
+			res := n * res;
+			n := n - 1
+		END;
+		Write(res); WriteLn
+	END Factorial;
+
+	(* 判断一元二次方程是否有解 *)
+    PROCEDURE CalculateDiscriminant;
+    TYPE
+        coefficient = RECORD
+            a, b, c : INTEGER;
+        END;
+    VAR 
+        co : ARRAY 1 OF coefficient;
+        discriminant : INTEGER;
+    BEGIN
+        READ(co[0].a); READ(co[0].b); READ(co[0].c);
+        
+        (* 计算判别式 *)
+        discriminant := co[0].b * co[0].b - 4 * co[0].a * co[0].c;
+        Write(discriminant);
+        WriteLn
+    END CalculateDiscriminant;
+	PROCEDURE call();  
+	BEGIN   
+		Factorial();
+		CalculateDiscriminant();  
+	END call;
+END calculate.

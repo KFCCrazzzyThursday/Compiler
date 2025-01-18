@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage[final]{neurips_2020}
+
+\usepackage[utf8]{inputenc}
+\usepackage{ctex}
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{amsmath}
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{float}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\title{LAB0 设计文档}
+
+\author{%
+    21307099 李英骏\\
+    \texttt{liyj323@mail2.sysu.edu.cn} \\
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{概述}
+个人所得税计算器是一个简单的控制台应用程序，
+用于根据用户的收入计算其应缴纳的个人所得税。
+应用允许用户输入其月收入额，并基于预定义的税率和税级计算税款。
+用户还可以调整税率和起征点以查看不同设置下的税款。
+
+\section{类设计}
+
+\subsection{Main}
+\textbf{描述：}应用的入口点，负责初始化应用程序和启动用户界面。\\
+\textbf{属性：}无\\
+\textbf{方法：}
+\begin{itemize}
+    \item \texttt{main(String[] args)}：程序入口方法。
+\end{itemize}
+
+\subsection{TaxRate}
+\textbf{描述：}存储和管理税率信息的类。\\
+\textbf{属性：}
+\begin{itemize}
+    \item \texttt{double threshold}：免税起征点。
+    \item \texttt{double[] rates}：税率数组。
+    \item \texttt{double[] brackets}：每个税级的收入上限。
+\end{itemize}
+\textbf{方法：}
+\begin{itemize}
+    \item \texttt{getThreshold()}：返回免税起征点。
+    \item \texttt{setThreshold(double)}：设置免税起征点。
+    \item \texttt{getRates()}：返回税率数组。
+    \item \texttt{setRates(double[])}：设置税率数组。
+    \item \texttt{getBrackets()}：返回税级上限数组。
+    \item \texttt{setBrackets(double[])}：设置税级上限数组。
+    \item \texttt{getTaxRateTable()}：返回当前税率表的字符串表示形式。
+\end{itemize}
+
+\subsection{PersonalIncomeTaxCalculator}
+\textbf{描述：}负责根据输入的收入计算税款的类。\\
+\textbf{属性：}
+\begin{itemize}
+    \item \texttt{TaxRate taxRate}：税率对象。
+\end{itemize}
+\textbf{方法：}
+\begin{itemize}
+    \item \texttt{calculateTax(double)}：计算并返回根据给定收入的税款。
+\end{itemize}
+
+\subsection{UserInterface}
+\textbf{描述：}管理用户交互的类。\\
+\textbf{属性：}
+\begin{itemize}
+    \item \texttt{Scanner scanner}：输入扫描器。
+    \item \texttt{PersonalIncomeTaxCalculator calculator}：税款计算器对象。
+\end{itemize}
+\textbf{方法：}
+\begin{itemize}
+    \item \texttt{showMenu()}：显示用户菜单并处理用户选择。
+    \item \texttt{calculateTax()}：提示用户输入收入并显示计算的税款。
+    \item \texttt{adjustThreshold()}：允许用户调整免税起征点。
+    \item \texttt{adjustRates()}：允许用户调整税率。
+\end{itemize}
+
+\end{document}

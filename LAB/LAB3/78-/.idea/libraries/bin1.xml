@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="bin1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/4.flowchart/bin/jgraph.jar!/" />
+      <root url="jar://$PROJECT_DIR$/4.flowchart/bin/flowchart.jar!/" />
+      <root url="jar://$PROJECT_DIR$/4.flowchart/bin/callgraph.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

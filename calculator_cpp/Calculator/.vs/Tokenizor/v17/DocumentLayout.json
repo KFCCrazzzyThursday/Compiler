@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\liyj\\Desktop\\Compiler\\calculator_cpp\\Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA366B68-9D1D-4872-9908-F3A0BC63E8C2}|Calculator\\Calculator.vcxproj|C:\\Users\\liyj\\Desktop\\Compiler\\calculator_cpp\\Calculator\\Calculator\\Token.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA366B68-9D1D-4872-9908-F3A0BC63E8C2}|Calculator\\Calculator.vcxproj|solutionrelative:Calculator\\Token.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Token.hpp",
+              "DocumentMoniker": "C:\\Users\\liyj\\Desktop\\Compiler\\calculator_cpp\\Calculator\\Calculator\\Token.hpp",
+              "RelativeDocumentMoniker": "Calculator\\Token.hpp",
+              "ToolTip": "C:\\Users\\liyj\\Desktop\\Compiler\\calculator_cpp\\Calculator\\Calculator\\Token.hpp",
+              "RelativeToolTip": "Calculator\\Token.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-28T18:29:49.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

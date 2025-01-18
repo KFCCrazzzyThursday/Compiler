@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}程序结构设计}{2}{section.1}%
+\contentsline {section}{\numberline {2}实验过程和核心代码}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}语法的二义性}{2}{subsection.2.1}%
+\contentsline {paragraph}{解析}{2}{section*.2}%
+\contentsline {subsection}{\numberline {2.2}设计并实现词法分析程序}{3}{subsection.2.2}%
+\contentsline {paragraph}{运算符的分类}{3}{section*.3}%
+\contentsline {paragraph}{如何处理对预定义函数名和布尔常量的识别}{4}{section*.4}%
+\contentsline {paragraph}{如何处理科学记数法表示的数值常量}{4}{section*.5}%
+\contentsline {paragraph}{如何处理字符串的边界}{4}{section*.6}%
+\contentsline {subsection}{\numberline {2.3}构造算符优先关系表}{4}{subsection.2.3}%
+\contentsline {paragraph}{如何处理一些较为敏感的 关系}{5}{section*.7}%
+\contentsline {subsection}{\numberline {2.4}设计并实现语法分析和语义处理程序}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}实验结果}{6}{section.3}%

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"Main","h":"","u":""},{"l":"PersonalIncomeTaxCalculator","h":"","u":""},{"l":"TaxRate","h":"","u":""},{"l":"UserInterface","h":"","u":""},{"l":"所有类","h":"","u":"allclasses-index.html"}]

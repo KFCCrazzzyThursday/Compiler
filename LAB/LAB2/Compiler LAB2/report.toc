@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}程序结构设计}{3}{section.1}%
+\contentsline {section}{\numberline {2}实验过程和核心代码}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}语法的二义性}{4}{subsection.2.1}%
+\contentsline {paragraph}{解析}{4}{section*.7}%
+\contentsline {subsection}{\numberline {2.2}设计并实现词法分析程序}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}DFA的设计}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}运算符的分类}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Token的设计与实现}{7}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}DFA的代码实现}{8}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}\textcolor {red}{实验文档中关注的问题}}{9}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Scanner(词法分析器)的实现}{10}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}构造算符优先关系表}{11}{subsection.2.3}%
+\contentsline {paragraph}{大致说明}{14}{section*.25}%
+\contentsline {paragraph}{如何处理一些较为敏感的 关系}{15}{section*.27}%
+\contentsline {subsection}{\numberline {2.4}设计并实现语法分析和语义处理程序}{16}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}stack的说明}{18}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Parser(语法分析器)的实现}{18}{subsubsection.2.4.2}%
+\contentsline {paragraph}{reduce 方法}{18}{section*.33}%
+\contentsline {paragraph}{操作流程}{18}{section*.34}%
+\contentsline {paragraph}{shift 方法}{18}{section*.35}%
+\contentsline {paragraph}{操作流程}{18}{section*.36}%
+\contentsline {paragraph}{opp 方法}{18}{section*.37}%
+\contentsline {paragraph}{操作流程}{18}{section*.38}%
+\contentsline {paragraph}{表达式的计算 和 Reducer\\}{19}{section*.39}%
+\contentsline {section}{\numberline {3}实验结果}{20}{section.3}%
+\contentsline {subsection}{\numberline {3.1}新增测例说明}{20}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}测试结果}{21}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}程序运行截图}{22}{subsection.3.3}%
+\contentsline {section}{\numberline {4}心得体会}{23}{section.4}%

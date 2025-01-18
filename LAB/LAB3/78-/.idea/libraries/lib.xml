@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/实验软装置（Oberon-0逆向工程工具ROSE）/lib/flowchart.jar!/" />
+      <root url="jar://$PROJECT_DIR$/实验软装置（Oberon-0逆向工程工具ROSE）/lib/jgraph.jar!/" />
+      <root url="jar://$PROJECT_DIR$/实验软装置（Oberon-0逆向工程工具ROSE）/lib/callgraph.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
